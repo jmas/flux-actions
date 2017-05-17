@@ -42,6 +42,8 @@ usersActions.loadOne(1);
 
 Please pass instance of flux `Dispatcher` here.
 
+* `dispatcher` - `Dispatcher` instance of flux `Dispatcher`
+
 ### `dispatch(type, payload)`
 
 Dispatch simple action.

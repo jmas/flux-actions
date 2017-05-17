@@ -1,6 +1,6 @@
 {
   "name": "flux-actions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic class that wrap flux actions.",
   "keywords": "flux, action",
   "main": "build/dist/flux-actions.min.js",
