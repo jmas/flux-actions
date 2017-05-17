@@ -25,8 +25,8 @@ export class Actions {
     dispatchPromise(promise, {request, success, fail}, payload = {}) {
         this.dispatch(request, payload);
         promise.then(
-            data => this.dispatch(success, {data, payload}),
-            data => this.dispatch(fail, {data, payload}),
+            data => this.dispatch(success, {...payload, data}),
+            data => this.dispatch(fail, {...payload, data}),
         );
     }
 }
