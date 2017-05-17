@@ -1,4 +1,4 @@
-export default class Actions {
+export class Actions {
     /**
      * @param {Dispatcher} dispatcher - instance of flux `Dispatcher`
      */
@@ -10,7 +10,7 @@ export default class Actions {
      * @param {string} type - action type
      * @param {object} payload - a payload object
      */
-    dispatch(type, payload={}) {
+    dispatch(type, payload = {}) {
         this._dispatcher.dispatch({
             type,
             payload
@@ -22,7 +22,7 @@ export default class Actions {
      * @param {request, success, fail} types - object with list of types request/success/fail
      * @param {object} payload - a payload object
      */
-    dispatchPromise(promise, {request, success, fail}, payload={}) {
+    dispatchPromise(promise, {request, success, fail}, payload = {}) {
         this.dispatch(request, payload);
         promise.then(
             data => this.dispatch(success, {data, payload}),

@@ -5,7 +5,7 @@ const libraryName = 'flux-actions';
 
 const baseConfig = {
     entry: {
-        'plainRouter': path.join(__dirname, 'src/index.js'),
+        'main': path.join(__dirname, 'src/index.js'),
     },
     output: {
         path: path.join(__dirname, 'build/dist'),
