@@ -1,0 +1,24 @@
+{
+  "name": "flux-actions",
+  "version": "0.1.0",
+  "description": "Basic class that wrap flux actions.",
+  "keywords": "flux, action",
+  "main": "build/dist/flux-actions.min.js",
+  "author": "Alex Maslakov <jmas.ukraine@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmas/flux-actions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmas/flux-actions/issues"
+  },
+  "homepage": "https://github.com/jmas/flux-actions#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^2.5.1"
+  }
+}
